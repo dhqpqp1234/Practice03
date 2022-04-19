@@ -8,10 +8,9 @@ public class Ex13 {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("숫자를 입력하세요: ");
 		int num = sc.nextInt();
-		
 		int sum = 0;
 		
-		for(int i = 1; i<=num; i++) {
+		for(int i =1; i<=num; i++) {
 			sum = sum+i;
 		}System.out.println("합계: "+sum);
 		sc.close();
